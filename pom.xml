@@ -64,4 +64,17 @@
       </plugins>
     </pluginManagement>
   </build>
+  
+  <distributionManagement>
+		<repository>
+			<id>hta4-releases</id>
+			<name>Releases</name>
+			<url>http://hta4.freeboxos.fr/nexus/repository/hta4-release/</url>
+		</repository>
+		<snapshotRepository>
+			<id>hta4-snapshots</id>
+			<name>Internal Snapshots</name>
+			<url>http://hta4.freeboxos.fr/nexus/repository/hta4-snapshot/</url>
+		</snapshotRepository>
+	</distributionManagement>
 </project>
